@@ -1,0 +1,30 @@
+*  {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+
+h2 {
+    background-color: red;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    /*border: 10px inset grey;
+    *//*border: 10px ridge grey;
+    *//*border: 5px solid r#a22;
+    */box-shadow: 30px 20px 10px 10px #000,30px 20px 10px 10px #000,30px 20px 10px 10px #000;
+    text-shadow: 2px 2px 7px #fff,2px 2px 7px #fff,2px 2px 7px #fff;
+    transform: rotate(-67deg);
+    -webkit-transform: rotate(-67deg);
+    -moz-transform: rotate(-67deg);
+    -ms-transform: rotate(-67deg);
+    -o-transform: rotate(-67deg);
+}

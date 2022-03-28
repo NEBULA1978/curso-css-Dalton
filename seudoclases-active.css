@@ -1,0 +1,41 @@
+* {
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.caja {
+  width: 250px;
+  height: 250px;
+  background: red;
+  margin: 25px;
+  transition: all 1s;
+}
+.caja2 {
+  
+  background: lightgrey;
+  margin: 25px;
+  transition: all 1s;
+}
+.caja3 {
+  
+  /* background: lightgrey; */
+  margin: 25px;
+  
+}
+
+.caja:active {
+    background: blue;
+    width: 600px;
+}
+
+.caja2:focus {
+    background: white;
+    padding: 10px;
+}
+
+.caja3 b:lang(en) {
+    background: red;
+    padding: 20px;
+    
+} 

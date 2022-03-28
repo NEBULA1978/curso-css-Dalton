@@ -1,0 +1,22 @@
+* {
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+b {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border: 10px solid red;
+  background: yellow;
+  height: 400px;
+  width: 400px;
+
+  /* si puedo cambiar opciones sino no */
+  /* va de arriba abajo */
+  /* display: block; */
+  
+  /* se ponen una al lado de otra derecha izquierda */
+  display: inline-block;
+}

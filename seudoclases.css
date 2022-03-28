@@ -1,0 +1,22 @@
+* {
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    /* para decirle el tiempo en que cambie */
+    /* transition: background 1s, height 1s, width 0.2s; */
+    transition: all 1s, border 0.5s;
+    border: 3px solid red;
+}
+
+.caja1:hover {
+    background: darkblue;
+    height: 300px;
+    width: 300px;
+    border: 3px solid blue;
+}

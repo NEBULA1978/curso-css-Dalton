@@ -1,0 +1,38 @@
+*  {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+.cont {
+    margin: 100px;
+    margin: auto;
+    margin-top: 50px;
+    width: 320px;
+    background: grey;
+    width:500px;
+    border: 2px solid red;
+    padding: 20px;
+    height: 350px;
+    overflow: hidden;
+    
+    
+    
+}
+
+/* .cont p { */
+    /* float: left; */
+    /* width:50%; */
+/* } */
+
+.cont img {
+    /* width: 450px;
+    position: relative;
+    top: 260px;
+    left: 240px;
+    outline: 2px solid blue; */
+    float:right;
+    width: 250px;
+    margin-right: 18px;
+}

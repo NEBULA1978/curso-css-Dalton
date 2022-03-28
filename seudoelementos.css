@@ -1,0 +1,22 @@
+* {
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.texto {
+  padding: 20px;
+  display: block;
+}
+
+/* la primera frase */
+.texto::first-line {
+  color: blue;
+  font-size: 2em;
+}
+
+/* la primera letra mayusculas */
+.texto::first-letter {
+  color: blue;
+  font-size: 2em;
+}

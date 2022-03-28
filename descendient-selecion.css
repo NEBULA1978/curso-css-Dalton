@@ -1,0 +1,19 @@
+/* se modifican todos los h2 */
+/* h2 {
+    color: red;
+} */
+
+/* vamos como los chinos de derecha a izquierda */
+/* quiero seleccionar el p de dentro del h2 */
+h2 p {
+    color: red;
+}
+
+/* modicar el b dentro del h2 */
+h2 b {
+    color: blue;
+}
+
+.h2-class b span {
+    color: chartreuse;
+}

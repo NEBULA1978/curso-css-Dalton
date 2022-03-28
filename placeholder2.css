@@ -1,0 +1,24 @@
+* {
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+form {
+    margin: 100px auto;
+    display: block;
+    background-color: rgb(173, 179, 172);
+    padding: 100px;
+    width: 50%;
+}
+
+p {
+    padding: 6px;
+    width: 100%;
+}
+
+/* cambiamos estilo de letra input */
+p::selection {
+    color: #fff;
+    background-color: #000;
+}

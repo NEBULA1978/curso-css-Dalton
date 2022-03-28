@@ -1,0 +1,8 @@
+ voy por 2h32 posicion absolute
+
+ voy 3h 13 float
+
+ voy por 4h 27 menu responsive
+
+ empiezo 4h 46minutos introduccion a flxbox
+ 

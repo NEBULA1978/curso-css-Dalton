@@ -1,0 +1,25 @@
+*  {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/* .contenedor {
+    float: left;
+} */
+
+.contenedor div {
+    /* display: inline-block; */
+    float: right;
+    padding: 20px;
+}
+
+.primario {
+    background: red;
+    width: 70%;
+}
+
+.secundario {
+    background: yellow;
+    width: 30%;
+}

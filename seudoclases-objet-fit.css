@@ -1,0 +1,30 @@
+* {
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.caja {
+    display: flex;
+    margin: 25px;
+    /* padding: 20px; */
+    /* background-color: blue; */
+    /* transition: background 0.12s; */
+    /* color: #fff; */
+    /* display: block; */
+    width: 600px;
+    height: 500px;
+    /* display: flex; */
+}
+
+/* none agranda la imagen a como tiene que ser como es la imagen*/
+
+
+.caja img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    /* se ajusta a contenedor y recorta los demas bordes */
+    /* la imagen se ajusta al contenido */
+    object-fit: cover;
+}

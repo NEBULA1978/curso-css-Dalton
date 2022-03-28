@@ -1,0 +1,41 @@
+
+#color-blue{
+	color: blue;
+}
+
+/* .contact-form__input:first-child{
+	color: green;
+} */
+
+.contact-form__input--active{
+	color: red;
+}
+
+
+/*
+.contact-form__h2{
+	font-size: 1em; 
+}
+*/
+
+/* si pongo font-size vale el valor el em ejm: font-size vale 25px un 1em vale 25px */
+/* 1em son 16pixeles */
+
+.contact-form {
+  font-size: 25px;
+}
+
+.contact-form__h2 {
+  font-size: 2em;
+  background-color: #234;
+  font-family: sans-serif;
+  line-height: 6;
+  font-weight: 700;
+
+  /*
+	font-stretch: normal;
+	font-variant: small-caps;
+	width: 50vw;
+	height: 50vh;
+	*/
+}

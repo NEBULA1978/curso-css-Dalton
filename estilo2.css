@@ -1,0 +1,27 @@
+.color-red{
+	color: blue;
+}
+
+h1{
+	color: red;
+}
+#color-blue{
+	color: red;
+}
+
+.color-red{
+	color: green;
+}
+
+h2{
+	color: grey !important
+}h1{
+	color: grey !important
+}
+
+
+/*
+[atributo="color-blue"]{
+	color: blue;
+}
+*/

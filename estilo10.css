@@ -1,0 +1,26 @@
+*  {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.contenedor {
+    width: 300px;
+    height: 300px;
+    background: red;
+    margin: 40px;
+    position: relative;
+    /* z-index: 100; */
+    /* no tiene que estar definido z index y se pone encima*/
+
+}
+
+.hijo {
+    background: blue;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    z-index: -1;/* la unica foema poner al hijo por encima del padre ,sin z-index en el padre*/
+}

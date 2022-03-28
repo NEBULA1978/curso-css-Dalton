@@ -1,0 +1,48 @@
+*  {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: greenyellow;
+}
+
+.caja1 {
+    background-color: red;
+    /* position: relative; */
+    top: 20px;
+}
+.caja2 {
+    background-color: greenyellow;
+    position: relative;/* posicionado en el eje z los ordena conforme veemos de frente, mas viniendo adelante*/
+    /* el valor de zindex va aparecer adelante */
+
+    /* las propiedades top y left son las mas importantes si no estan funcionan botton y right sino no funcionan*/
+
+    /* mueve a la derecha 50px */
+    /* left: 50px; */
+
+    /* se mueva 20pixeles hacia abajo*/
+    /* top: 20px; */
+
+    top: 60px;
+    left: 20px;
+    z-index: 100;/* se pone la caja 2 encima yep*/
+
+}
+.caja3 {
+    background-color: lightblue;
+    position: relative;/* se pone delante la caja3 de la caja2, si no pongo esta la caja2 encima*/
+    /*
+    top: 40px; */
+     z-index: 10;/* se pone la caja 2 encima yep*/
+}
+.caja4 {
+    background-color: violet;
+    /* position: relative;
+    top: 30px; */
+}

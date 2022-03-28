@@ -1,0 +1,38 @@
+*  {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+
+h2 {
+    background-color: greenyellow;
+    /*paraquesecomportecomounelementoenlineaperopuedaadquirirlaspropiedadesdeunelementoenbloque*/display: inline-block;
+    /*paddinq*//*padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    *//*acortamoslodearribapaddingconpadding:;
+    20px*//*primeoejeyesegundoejex*//*padding: 20px;
+    entodos*//*padding: 20px 30px 30px 40px;
+    *//*la1ºaltop,la2ºalrigth,la3ºalboton,yla4ºalleft*//*padding: 20px 30px 30px ;
+    *//*la1ºaltop,la2ºalrigthpaellultimovalor,la3ºalboton  padding: 10px 50px;*/
+    padding: 200px;
+    /*arribaabajoeizquierdaderecha*/height: 100px;
+    /*alto width: 300px;*/
+    /*ancho box-sizing: content-box;*/
+    /*sequedafijalacaja*/box-sizing: border-box;
+    /*noscentraelcontenido(texto)enmediodelacaja*/text-align: center;
+    /*magindistanciaentralasdoscajaseleparasepararunacajadelaotra*//*margin: 10px;
+    */margin: 20px 10px;
+    /*mismaseparacionentodosloslados*/border-radius: 2em;
+    -webkit-border-radius: 1;
+    -moz-border-radius: 1;
+    -ms-border-radius: 1;
+    -o-border-radius: 1;
+
+    /* border: 10px inset grey; */
+    /* border: 10px ridge grey; */
+    border: 5px solid red;
+    box-shadow: 2px 4px 1'px 0 #000;
+}

@@ -1,0 +1,40 @@
+* {
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.caja1 {
+    margin: 30px;
+    /* padding: 20px; */
+    /* background-color: blue; */
+    /* transition: background 0.12s; */
+    /* color: #fff; */
+    display: block;
+}
+.caja2 {
+    margin: 30px;
+    /* padding: 20px; */
+    /* background-color: blue; */
+    /* transition: background 0.12s; */
+    /* color: #fff; */
+    display: block;
+}
+
+/* .caja1:link { */
+    /* sino esta visitado esta en rojo */
+    /* color: red;
+} */
+
+a:link {
+    color: red;
+    display: block;
+    background-color: rgb(43, 220, 226);
+}
+
+
+a:visited {
+    color: rgb(0, 255, 106);
+    display: block;
+    background-color: black;
+}

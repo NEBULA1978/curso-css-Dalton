@@ -1,0 +1,38 @@
+*  {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+div {
+    width: 160px;
+    height: 160px;
+    display: block;
+    background: greenyellow;
+}
+
+.contenedor {
+    margin: 100px;
+}
+
+.caja1 {
+    background-color: red;
+  
+}
+.caja2 {
+    background-color: greenyellow;
+    position: absolute;
+    /* opacity: 0.2; */
+    /* margin-left: 300px; */
+
+    /*sino le pongo top no veo la caja2*/
+    top: 0;
+    
+   
+}
+.caja3 {
+    background-color: lightblue;
+   
+    /* top: 40px;  */
+     
+}

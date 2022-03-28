@@ -1,0 +1,28 @@
+* {
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+div {
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    background: #ddd;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.caja2 {
+    background: #bbb;
+}
+
+/* cuando la pantalla alcance valores menores de 800 pixeles de ancho vamos a hacer algo */
+@media only screen and(max-width: 80px){
+div {
+    display: block;
+    width: 100%;
+}
+}
